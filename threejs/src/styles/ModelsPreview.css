@@ -1,0 +1,52 @@
+.carousel-container {
+    padding: 30px;
+    text-align: center;
+    background: linear-gradient(to bottom, #000, #111);
+    min-height: 100vh;
+    color: white;
+  }
+  
+  .upload-button {
+    display: inline-block;
+    margin-bottom: 20px;
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+  }
+  
+  .carousel-wrapper {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    gap: 30px;
+    padding: 20px;
+  }
+  
+  .carousel-item {
+    flex: 0 0 500px;
+    scroll-snap-align: center;
+    background: #1a1a1a;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+  }
+  
+  .canvas {
+    height: 300px;
+    width: 100%;
+    background: #000;
+    border-radius: 10px;
+  }
+  
+  .model-details {
+    margin-top: 15px;
+    text-align: left;
+  }
+  
+  .model-details h2 {
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
+  
